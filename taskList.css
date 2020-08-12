@@ -1,0 +1,72 @@
+*
+{
+	background-color: #282923;
+	margin: 0;
+}
+.head
+{
+	display: flex;
+	justify-content: center;
+	font-size: 35px;
+	color: black;
+	background-color: #7caec7;
+}
+.inpDiv
+{
+	padding: 20px;
+	display: flex;
+	float: right;
+}
+.btAdd
+{
+	padding-left: 10px;
+	border-radius: 12px;
+	width: 100px;
+	cursor: pointer;
+	background-color: #83a09b;
+	border: 2px solid black;
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+.tasks
+{
+	padding: 20px;
+	max-width: 250px;
+}
+.inp
+{
+	background-color: #ebce96;
+	border-color: orange;
+}
+.task
+{
+	border-left: 1px solid orange;
+	border-bottom: 1px solid orange;
+	border-top: 1px solid orange;
+	background-color: #ebce96;
+	height: 50px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 12px;
+}
+.taskBtDel
+{
+	height: 100%;
+	align-items: center;
+	display: flex;
+	background-color: black;
+	cursor: pointer;
+	color: #83a09b;
+	border-bottom-right-radius: 12px;
+	border-top-right-radius: 12px;
+}
+/*.taskBtConf
+{
+	background-color: blue;
+}*/
+.unvisible
+{
+	display: none;
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TaskList</title>
+	<link rel="stylesheet" href="taskList.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+<div class="head">Hi, your task is here</div>
+<div class="inpDiv"><input id="tasksInp" type="text" value="dd" class="inp"><p class="btAdd" onclick="addTask('tasks', tasksInp.value)">Add new task</p></div>
+<div id="tasks" class="tasks"></div>
+<script src="taskList.js"></script>
+</body>
+</html>
