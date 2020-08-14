@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="head">Hi, your task is here</div>
-<div class="inpDiv"><input id="tasksInp" type="text" value="dd" class="inp"><p class="btAdd" onclick="addTask('tasks', tasksInp.value)">Add new task</p></div>
+<div class="inpDiv"><input id="tasksInp" type="text" value="dd" onkeyup="key(event)" class="inp"><p class="btAdd" onclick="addTask('tasks', tasksInp.value, 'tasksInp', 'false')">Add new task</p><!-- <p class="btImpAdd" onclick="addTask('tasks', tasksInp.value, 'tasksInp', 'true')">Add red task</p> --></div>
 <div id="tasks" class="tasks"></div>
 <script src="taskList.js"></script>
 </body>

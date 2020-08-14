@@ -19,7 +19,8 @@
 }
 .btAdd
 {
-	padding-left: 10px;
+	padding-left: 3px; 
+	margin-left: 5px;
 	border-radius: 12px;
 	width: 100px;
 	cursor: pointer;
@@ -29,10 +30,25 @@
 	display: flex;
 	align-items: center;
 }
+/*.btImpAdd
+{
+	padding-left: 3px; 
+	margin-left: 5px;
+	border-radius: 12px;
+	width: 100px;
+	cursor: pointer;
+	background-color: red;
+	border: 2px solid black;
+	height: 40px;
+	display: flex;
+	align-items: center;
+}*/
 .tasks
 {
 	padding: 20px;
-	max-width: 250px;
+	max-width: 40vh;
+	max-height: 88vh;
+	overflow: auto;
 }
 .inp
 {
@@ -40,16 +56,28 @@
 	border-color: orange;
 }
 .task
-{
+{	
 	border-left: 1px solid orange;
 	border-bottom: 1px solid orange;
 	border-top: 1px solid orange;
 	background-color: #ebce96;
+	margin-bottom: 1px;
 	height: 50px;
 	align-items: center;
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
 	border-radius: 12px;
+}
+.taskTxt
+{
+	margin-left: 1px;
+	align-items: center;
+	max-height: 50px;
+	border-radius: 12px;
+	background-color: #ebce96;
+	word-wrap: break-word;
+	overflow: auto;
 }
 .taskBtDel
 {
@@ -62,6 +90,20 @@
 	border-bottom-right-radius: 12px;
 	border-top-right-radius: 12px;
 }
+/*.taskImp
+{	
+	border-left: 2px solid red;
+	border-bottom: 2px solid red;
+	border-top: 2px solid red;
+	background-color: #ebce96;
+	margin-bottom: 1px;
+	height: 50px;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-radius: 12px;
+}*/
 /*.taskBtConf
 {
 	background-color: blue;
